@@ -26,3 +26,11 @@ my_list = [1, 2, 3]
 my_list[0] = 0  # Modifying an element in the list
 print(my_list)  # Output: [0, 2, 3]
 ```
+
+Immutable objects like tuples cannot be altered:
+
+```
+my_tuple = (1, 2, 3)
+# Attempting to change a tuple will result in an error
+# my_tuple[0] = 0
+```
