@@ -54,3 +54,24 @@ my_tuple = (1, 2, 3)
 # Attempting to modify a tuple will result in an error
 # my_tuple.append(4)
 ```
+
+## Explain the use of virtualenv.
+
+Virtualenv creates isolated Python environments, allowing different projects to use different versions of packages without conflicts. Example:
+
+Creating a virtual environment:
+
+### Creating a virtual environment named 'myenv'
+virtualenv myenv
+
+Activating the virtual environment:
+
+### On Windows
+```
+myenv\Scripts\activate
+```
+
+### On Unix or MacOS
+```
+source myenv/bin/activate
+```
