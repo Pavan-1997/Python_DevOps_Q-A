@@ -113,3 +113,22 @@ else:
 finally:
     print("Execution completed.")
 ```
+
+## What's the difference between append() and extend() for lists?
+
+append() adds a single element to the end of a list, while extend() adds multiple elements by appending elements from an iterable. Example:
+
+Using append():
+```
+my_list = [1, 2, 3]
+my_list.append(4)
+print(my_list)  # Output: [1, 2, 3, 4]
+```
+
+Using extend():
+
+```
+my_list = [1, 2, 3]
+my_list.extend([4, 5])
+print(my_list)  # Output: [1, 2, 3, 4, 5]
+```
