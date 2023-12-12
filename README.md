@@ -34,3 +34,23 @@ my_tuple = (1, 2, 3)
 # Attempting to change a tuple will result in an error
 # my_tuple[0] = 0
 ```
+
+## Differentiate between list and tuple in Python.
+
+Lists are mutable and typically used for storing collections of items that can be changed, while tuples are immutable and commonly used to store collections of items that shouldn't change. Examples:
+
+List:
+
+```
+my_list = [1, 2, 3]
+my_list.append(4)  # Modifying by adding an element
+print(my_list)  # Output: [1, 2, 3, 4]
+```
+
+Tuple:
+
+```
+my_tuple = (1, 2, 3)
+# Attempting to modify a tuple will result in an error
+# my_tuple.append(4)
+```
