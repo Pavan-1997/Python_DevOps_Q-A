@@ -126,9 +126,19 @@ print(my_list)  # Output: [1, 2, 3, 4]
 ```
 
 Using extend():
-
 ```
 my_list = [1, 2, 3]
 my_list.extend([4, 5])
 print(my_list)  # Output: [1, 2, 3, 4, 5]
+```
+
+## Explain the use of lambda functions in Python.
+
+Lambda functions are anonymous functions used for short tasks. Example:
+
+Defining and using a lambda function:
+
+```
+square = lambda x: x**2
+print(square(5))  # Output: 25
 ```
