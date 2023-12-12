@@ -96,3 +96,20 @@ def say_hello():
 
 say_hello()
 ```
+
+## How does exception handling work in Python?
+
+Exception handling in Python uses try, except, else, and finally blocks. Example:
+
+Handling division by zero exception:
+
+```
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Division by zero is not allowed.")
+else:
+    print("Division successful:", result)
+finally:
+    print("Execution completed.")
+```
