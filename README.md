@@ -142,3 +142,23 @@ Defining and using a lambda function:
 square = lambda x: x**2
 print(square(5))  # Output: 25
 ```
+
+## What are the different types of loops in Python?
+
+Python has for loops and while loops. 
+
+Example:
+
+Using for loop:
+```
+for i in range(5):
+    print(i)
+```
+
+Using while loop:
+```
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+```
