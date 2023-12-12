@@ -14,3 +14,15 @@
 ## How can you secure your Python code and scripts?
 
 - Handle any sensetive information using Input variables, command line arguments or env vars.
+
+## Explain the difference between mutable and immutable objects.
+
+In Python, mutable objects can be altered after creation, while immutable objects cannot be changed once created. For instance:
+
+Mutable objects like lists can be modified:
+
+```
+my_list = [1, 2, 3]
+my_list[0] = 0  # Modifying an element in the list
+print(my_list)  # Output: [0, 2, 3]
+```
