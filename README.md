@@ -15,7 +15,7 @@
 
 - Handle any sensetive information using Input variables, command line arguments or env vars.
 
-## Explain the difference between mutable and immutable objects.
+## Explain the difference between mutable and immutable objects?
 
 In Python, mutable objects can be altered after creation, while immutable objects cannot be changed once created. For instance:
 
