@@ -162,3 +162,25 @@ while i < 5:
     print(i)
     i += 1
 ```
+
+## Explain the difference between == and is operators.
+
+The == operator compares the values of two objects, while the is operator checks if two variables point to the same object in memory. 
+
+Example:
+
+Using ==:
+
+```
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a == b)  # Output: True (because values are equal)
+```
+
+Using is:
+
+```
+a = [1, 2, 3]
+b = a
+print(a is b)  # Output: True (because they reference the same object)
+```
