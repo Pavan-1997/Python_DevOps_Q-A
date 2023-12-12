@@ -194,3 +194,28 @@ Using pass:
 def placeholder_function():
     pass  # To be implemented later
 ```
+
+## What is the difference between global and local variables?
+
+Global variables are defined outside functions and can be accessed anywhere in the code, while local variables are defined inside functions and are only accessible within that function's scope. Example:
+
+Using a global variable:
+```
+global_var = 10
+
+def my_function():
+    print(global_var)
+
+my_function()  # Output: 10
+```
+
+Using a local variable:
+
+```
+def my_function():
+    local_var = 5
+    print(local_var)
+
+my_function()  # Output: 5
+# Attempting to access local_var outside the function will result in an error
+```
