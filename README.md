@@ -184,3 +184,13 @@ a = [1, 2, 3]
 b = a
 print(a is b)  # Output: True (because they reference the same object)
 ```
+
+## What is the use of the pass keyword?
+
+The pass keyword is a no-operation placeholder used when a statement is syntactically needed but no action is required. Example:
+
+Using pass:
+```
+def placeholder_function():
+    pass  # To be implemented later
+```
