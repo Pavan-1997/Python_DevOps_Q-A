@@ -219,3 +219,24 @@ def my_function():
 my_function()  # Output: 5
 # Attempting to access local_var outside the function will result in an error
 ```
+
+## Explain the difference between open() and with open() statement.
+
+open() is a built-in function used to open a file and return a file object. 
+However, it's crucial to manually close the file using file_object.close(). 
+Conversely, with open() is a context manager that automatically handles file closure, ensuring clean-up even if exceptions occur. 
+
+Example:
+```
+file = open('example.txt', 'r')
+content = file.read()
+file.close()
+```
+
+Using with open():
+```
+with open('example.txt', 'r') as file:
+    content = file.read()
+# File is automatically closed when the block exits
+```
+
