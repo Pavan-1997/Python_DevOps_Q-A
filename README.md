@@ -5,7 +5,7 @@
 - Here you can talk about the projects like 
   - GitHub Webhooks
   - JIRA integration
-  - File Operations
+  - File Operations 
 
 ## Discuss the challenges that you faced while using Python for DevOps and how did you overcome it?
 
